@@ -6,9 +6,17 @@
  */
 int main(void)
 {
-	printf("Size of a char: %lU byte(s)\n", sizeof(char));
-        prinf("Size of an int: %lu byte(s)\n", sizeof(int));
-        printf("size of a long int: %lu byte(s)\n", sizeof(long int));
-        printf("size of a long long int: %lu byte(s)\n", sizeof(long long int);
-	printf("size of a float: %lu byte(s), sizeof(float)
-	return (0);
+	char a;
+	int b;
+	long int c;
+	long long int d;
+	float f;
+
+printf("size of a char: %lu byte(s)/", (unnsigned long)sizeof(a));
+printf("size of an int: %lu byte(s)/", (unnsigned long)sizeof(b));
+printf("size of a long int: %lu byte(s)/", (unnsigned long)sizeof(c));
+printf("size of a long long int: %lu byte(s)/", (unnsigned long)sizeof(d));
+printf("size of a float: %lu byte(s)/", (unnsigned long)sizeof(f));
+return (0);
+}
+
