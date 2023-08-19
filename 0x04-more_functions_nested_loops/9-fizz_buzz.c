@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print 1 to 100 and fizzbuzz
+ * main - print 1 to 100 and FizzBuzz
  *
  * Rwturn: 0
  */
@@ -12,15 +12,15 @@ int main(void)
 	{
 		if ((i % 3 == 0) && (i % 5 == 0))
 		{
-		printf("fizzbuzz");
+		printf("FizzBuzz");
 		}
 		else if (i % 3 == 0)
 		{
-		printf("fizz");
+		printf("Fizz");
 		}
 		else if (i % 5 == 0)
 		{
-		printf("buzz");
+		printf("Buzz");
 		}
 		else
 		{
@@ -28,7 +28,7 @@ int main(void)
 		}
 
 	}	
-	printf("buzz");
+	printf("Buzz");
 	printf("\n");
 
 	return (0);
