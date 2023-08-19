@@ -2,13 +2,13 @@
 #include <math.h>
 
 /**
- * getMaxPrimeFactor - is a function to get max prime
+ * getLargestPrimeFactor - is a function to get largest prime factor
  *
  * @n long int : is the number
  *
  * Return: (long int);
  */
-long int getMaxPrimeFactor(long int n)
+long int getLargestPrimeFactor(long int n)
 {
 
 	long int i, max = -1;
@@ -49,7 +49,7 @@ int main(void)
 
 	n = 612852475143;
 
-	printf("%ld\n", getMaxPrimeFactor(n));
+	printf("%ld\n", getLargestPrimeFactor(n));
 
 	return (0);
 
