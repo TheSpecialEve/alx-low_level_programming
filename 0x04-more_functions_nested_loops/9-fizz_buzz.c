@@ -2,7 +2,7 @@
 /**
  * main - print 1 to 100 and FizzBuzz
  *
- * Rwturn: 0
+ * Return: 0
  */
 int main(void)
 {
@@ -27,7 +27,7 @@ int main(void)
 		printf("%d ", i);
 		}
 
-	}	
+	}
 	printf("Buzz");
 	printf("\n");
 
