@@ -4,7 +4,7 @@
 /**
  * getMaxPrimeFactor - is a function to get max prime
  *
- * n - is the number
+ * @n long int : is the number
  *
  * Return: (long int);
  */
