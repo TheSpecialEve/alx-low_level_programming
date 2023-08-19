@@ -2,9 +2,9 @@
 #include <math.h>
 
 /**
- * getMaxPrimeFactor is a function to get max prime
+ * getMaxPrimeFactor - is a function to get max prime
  *
- * n is the number
+ * n - is the number
  *
  * Return: (long int);
  */
@@ -46,6 +46,7 @@ int main(void)
 {
 
 	long int n;
+
 	n = 612852475143;
 
 	printf("%ld\n", getMaxPrimeFactor(n));
