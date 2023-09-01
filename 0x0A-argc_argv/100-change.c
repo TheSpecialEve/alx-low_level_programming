@@ -23,28 +23,21 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	total = strtol(argv[1], &p, 10);
-	count = 0;
-
-	if (!*p)
+	num = atoi(argv[1]);
+	result = 0;
+	if (num < 0)
 	{
-		while (total > 1)
+		printf("0\n");
+		return (0);
+	}
+	for (j = 0; j < 5 && num >= 0; j++)
+	{
+		while (num >= coins[j])
 		{
-			for (i = 0; i < sizeof(cents[i]); i++)
-			{
-				if (total >= cents[i])
-				{
-					count += total / cents[i];
-					total = total % cents[i];
-				}
-			}
+			result++;
+			num -= coins[j];
 		}
-		if (total == 1)
-			count++;
 	}
-	else
-	{
-		printf("Error\n");
-		return (1);
-	}
+	printf("%d\n", result);
+	return (0);
 }
