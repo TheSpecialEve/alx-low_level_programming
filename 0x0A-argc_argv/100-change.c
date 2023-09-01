@@ -5,17 +5,18 @@
 /**
 * main - prints the min number of coins to make change
 * for an amount of money
-* @argc: argument count
-* @argv: arguments
-* Return: 0
+* @argc: number of arguments
+* @argv: arrays of arguments
+*
+* Return: 0(success), 1(error)
 */
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	int total, count;
 	unsigned int i;
 	char *p;
-	int cents[] = {25, 10, 5, 2};
+	int cents[] = {25, 10, 5, 2, 1};
 
 	if (argc != 2)
 	{
